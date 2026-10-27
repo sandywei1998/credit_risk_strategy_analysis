@@ -1,0 +1,24 @@
+﻿# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+# IDE and system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+# Local secrets and environment settings
+.env
+.env.*
+!.env.example
+# SQLite databases and temporary files
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+# Logs and temporary files
+*.log
+*.tmp
+# Generated backtest outputs
+python_backtest/output/
